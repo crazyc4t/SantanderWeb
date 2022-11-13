@@ -90,12 +90,14 @@ h6, .h6 {
     transition: transform .2s ease-in-out;
     transform-origin: top;
     transform: scaleY(0); }
-  .btn:active, .btn:hover, .btn.focus, .btn:focus, .btn.active {
+  .btn:focus {
     outline: 0;
     box-shadow: none !important; }
-    .btn:active::before, .btn:hover::before, .btn.focus::before, .btn:focus::before, .btn.active::before {
-      transform: scaleY(1);
-      transform-origin: bottom; }
+  .btn:active {
+    box-shadow: none; }
+  .btn:hover::before {
+    transform: scaleY(1);
+    transform-origin: bottom; }
 
 .btn-sm {
   font-size: 14px;
@@ -106,36 +108,53 @@ h6, .h6 {
   padding: 5px 15px; }
 
 .btn-primary {
-  color: #fff;
-  background-color: #ffbc3b; }
+  background: #ffbc3b;
+  color: #fff; }
   .btn-primary::before {
-    background-color: #fff; }
-  .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary.active {
-    color: #ffbc3b !important;
-    background-color: #ffab08 !important;
-    border-color: #ffab08 !important; }
+    background: #fff; }
+  .btn-primary:active {
+    background: #ffbc3b !important;
+    color: #ffbc3b; }
+    .btn-primary:active::before {
+      height: 80%; }
+  .btn-primary:hover {
+    background: #ffab08;
+    color: #ffbc3b; }
 
-.btn-outline-primary {
-  color: #ffbc3b;
-  background-color: transparent;
-  border: 1px solid #ffbc3b; }
-  .btn-outline-primary::before {
-    background-color: #fff; }
-  .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary:focus, .btn-outline-primary.active {
-    color: #ffbc3b !important;
-    background-color: #ffbc3b !important;
-    border-color: #ffbc3b !important; }
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ffab08;
+  border-color: #ffab08; }
 
-.btn-light {
+.btn-secondary {
+  background: #fff;
   color: #ffbc3b;
-  background-color: #fff;
   border: 1px solid #fff; }
-  .btn-light::before {
-    background-color: #ffbc3b; }
-  .btn-light:active, .btn-light:hover, .btn-light.focus, .btn-light:focus, .btn-light.active {
-    color: #fff !important;
-    background-color: #fff !important;
-    border: 1px solid #fff !important; }
+  .btn-secondary::before {
+    background: #ffbc3b; }
+  .btn-secondary:active {
+    background: #ffbc3b;
+    color: #fff;
+    border: 1px solid #fff; }
+  .btn-secondary:hover {
+    background: #fff;
+    color: #fff;
+    border: 1px solid #fff; }
+
+.btn-primary-outline {
+  border: 1px solid #ffbc3b;
+  color: #ffbc3b;
+  background: transparent; }
+  .btn-primary-outline::before {
+    background: #fff; }
+  .btn-primary-outline:hover {
+    background: #ffbc3b;
+    color: #ffbc3b; }
+  .btn-primary-outline:active {
+    background: #ffbc3b;
+    color: #fff; }
 
 body {
   background-color: #fff;
@@ -452,9 +471,7 @@ textarea.form-control {
   transition: .2s ease; }
   @media (max-width: 991px) {
     .navigation {
-      background: #1a1a37; }
-      .navigation .navbar-brand {
-        padding: 12px 0; } }
+      background: #1a1a37; } }
 @media (max-width: 991px) {
   .navbar-collapse {
     background: #1a1a37; } }
@@ -748,13 +765,7 @@ link:focus,
     right: 25px;
     top: 50%;
     transform: translateY(-50%); }
-    @media (max-width: 575px) {
-      .input-wrapper button {
-        position: static;
-        transform: translateY(-10px);
-        width: 100%;
-        outline: 5px solid #fff;
-        outline-offset: -5px; } }
+
 .form-control {
   height: 60px;
   background: #fff;
@@ -765,11 +776,8 @@ link:focus,
     box-shadow: none; }
 
 .newsletter-block .form-control {
-  height: 80px;
-  padding-right: 160px; }
-  @media (max-width: 575px) {
-    .newsletter-block .form-control {
-      padding-right: 25px; } }
+  height: 90px; }
+
 .bg-footer {
   background-color: #182b45; }
 
@@ -779,18 +787,7 @@ link:focus,
 
 .footer {
   border-color: #494a43 !important;
-  padding-top: 275px;
-  color: #8996a7; }
-  .footer a {
-    color: #8996a7;
-    text-transform: capitalize; }
-    .footer a:hover {
-      text-decoration: underline;
-      color: #fff; }
-
-.copyright p {
-  color: #8996a7;
-  text-transform: capitalize; }
+  padding-top: 275px; }
 
 /* /footer */
 .filter-controls li {
@@ -810,7 +807,3 @@ link:focus,
   .tag-list a:hover {
     background-color: #ffbc3b;
     color: #fff; }
-
-.media a:hover h5 {
-  color: #ffbc3b;
-  transition: 0.3s; }
