@@ -6,12 +6,12 @@ theme = "educenter-hugo"
 paginate = "6"
 # post excerpt
 summaryLength = "10"
-# disqus short name
-disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
 defaultContentLanguage = "es"
 disableLanguages = ['en']# desable language from here
 
+[markup.goldmark.renderer]
+  unsafe = true
 
 ############################# Plugins ##############################
 
@@ -88,27 +88,12 @@ expire_days = 2
 [[params.social]]
 title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/santander.educacion/"
 
 [[params.social]]
 title = "instagram"
 icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.instagram.com/uesantander/?igshid=YmMyMTA2M2Y%3D"
 
 
 ################################### English language #####################################
@@ -205,7 +190,7 @@ link = "#"
 [Languages.es]
 languageName = "Es"
 languageCode = "es-es"
-contentDir = "content/spanish"
+contentDir = "content/"
 weight = 1
 home = "Casa"
 # copyright
@@ -224,36 +209,26 @@ hasChildren = true
 [[Languages.es.menu.main]]
 parent = "Sobre Nosotros"
 name = "Quiénes somos"
-url = "about/"
+url = "nosotros/"
 
 [[Languages.es.menu.main]]
 name = "Cursos"
-url = "course/"
+url = "cursos/"
 weight = 2
 
 [[Languages.es.menu.main]]
 parent = "Sobre Nosotros"
 name = "Profesores"
-url = "teacher/"
+url = "profesores/"
 
 [[Languages.es.menu.main]]
 parent = "Sobre Nosotros"
 name = "Noticias"
-url = "notice/"
-
-[[Languages.es.menu.main]]
-parent = "Sobre Nosotros"
-name = "Eventos"
-url = "event/"
-
-[[Languages.es.menu.main]]
-parent = "Sobre Nosotros"
-name = "Blog"
 url = "blog/"
   
 [[Languages.es.menu.main]]
 name = "Matriculación"
-url = "https://docs.google.com/forms/d/e/1FAIpQLSe5aC03oZVfSqqIfdmtYFApDTJrUCVE8RBjBdoqs4KfafNiMw/viewform?usp=sf_link"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSffGakICXWzD01-SmXgtpEiP5gBW10TzZrO0cISzrG5K3-q0g/viewform"
 weight = 3
 
 
@@ -261,12 +236,8 @@ weight = 3
 
 [[Languages.es.menu.footer]]
 name = "Profesores"
-url = "teacher/"
+url = "profesores/"
 
 [[Languages.es.menu.footer]]
 name = "Noticias"
-url = "notice/"
-
-[[Languages.es.menu.footer]]
-name = "Eventos"
-url = "event/"
+url = "blog/"

@@ -12,7 +12,7 @@ slider:
       button:
         enable : true
         label : "¡Matricúlate aquí!"
-        link : "contact/"
+        link : "https://docs.google.com/forms/d/e/1FAIpQLSffGakICXWzD01-SmXgtpEiP5gBW10TzZrO0cISzrG5K3-q0g/viewform"
 
     # slider item loop
     - title : "Estudia con nosotros, sé un bachiller."
@@ -23,7 +23,7 @@ slider:
       button:
         enable : true
         label : "Ver cursos"
-        link : "contact/"
+        link : "cursos/"
 
     # slider item loop
     - title : "¡Gradúate en 5 meses!"
@@ -34,7 +34,7 @@ slider:
       button:
         enable : true
         label : "Saber más"
-        link : "contact/"
+        link : "nosotros/"
 
 
 ############################### Banner feature ###############################
@@ -57,12 +57,12 @@ banner_feature:
 about:
   enable : true
   title : "Quiénes somos"
-  image : "images/about/about-us.jpg"
+  image : "images/about/aboutus.jpg"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat"
   button:
     enable : true
-    label : "En savoir plus"
-    link : "about/"
+    label : "Saber más"
+    link : "nosotros/"
 
 
 ############################# Course ################################
@@ -79,13 +79,13 @@ cta:
   button:
     enable : true
     label : "Contactar"
-    link : "contact/"
+    link : "https://api.whatsapp.com/send/?phone=593992235197&text&type=phone_number&app_absent=0"
 
 
 ######################## Success story #############################
 success_story:
   enable : true
-  bg_image : "images/backgrounds/success-story.jpg"
+  bg_image : "images/backgrounds/succes.png"
   title : "Historias de nuestros graduados"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
   # video link
@@ -94,8 +94,7 @@ success_story:
 
 ############################# event ################################
 event:
-  enable : true
-  title : "Eventos por venir"
+  enable : false
   # event item comes from "content/**/event" folder.
 
   
@@ -125,5 +124,5 @@ funfacts:
 ############################# blog ################################ 
 blog:
   enable : true
-  title : "Nuestros blogs"
+  title : "Nuestras noticias y eventos"
   # blog item comes from "content/**/blog" folder.
