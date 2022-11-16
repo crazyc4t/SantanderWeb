@@ -8,16 +8,6 @@
         <h2 class="section-title">{{ i18n "contact_us" }}</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-7 mb-4 mb-lg-0">
-        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
-          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
-          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
-          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject">
-          <textarea name="message" id="message" class="form-control mb-3" placeholder="Your Message"></textarea>
-          <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
-        </form>
-      </div>
       <div class="col-lg-5 content">
         {{ .Content }}
         <a href="tel:{{ site.Params.mobile }}" class="text-color h5 d-block">{{ site.Params.mobile }}</a>
@@ -31,12 +21,13 @@
 
 <!-- gmap -->
 <section class="section pt-0">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.056288590693!2d-79.9120970847856!3d-2.132065098445844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d52491379cf%3A0x64813ceb69f836df!2sUnidad%20Educativa%20Particular%20PCEI%20a%20Distancia%20Santander%20%2F%20Oficina!5e0!3m2!1sen!2sec!4v1668605647257!5m2!1sen!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   <!-- Google Map -->
-  <div id="map_canvas" 
+  <!-- <div id="map_canvas" 
   data-latitude="{{ site.Params.map.map_latitude }}"
   data-longitude="{{ site.Params.map.map_longitude }}" 
   data-marker="{{ site.Params.map.map_marker | absURL }}"
-  data-marker-name="{{ site.Title }}"></div>
+  data-marker-name="{{ site.Title }}"></div> -->
 </section>
 <!-- /gmap -->
 
