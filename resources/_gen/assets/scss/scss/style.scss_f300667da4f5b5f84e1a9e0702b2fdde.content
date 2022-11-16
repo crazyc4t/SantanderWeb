@@ -18,7 +18,7 @@ VERSION:	Versoin Number
 
 body {
   line-height: 1.2;
-  font-family: "Roboto Slab", serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #7c7c9c; }
@@ -28,7 +28,7 @@ p, .paragraph {
   color: #7c7c9c;
   font-size: 15px;
   line-height: 1.9;
-  font-family: "Roboto Slab", serif; }
+  font-family: "Poppins", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #1e1e4b;
@@ -69,7 +69,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 16px;
-  font-family: "Roboto Slab", serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   padding: 15px 40px;
   border-radius: 0;
@@ -569,7 +569,7 @@ link:focus,
   color: #1e1e4b;
   transition: .2s ease;
   text-transform: capitalize;
-  font-family: "Roboto Slab", serif; }
+  font-family: "Poppins", sans-serif; }
   @media (max-width: 991px) {
     .navbar .dropdown-item {
       text-align: center; } }

@@ -9,7 +9,7 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = ['fr'] # desable language from here
+disableLanguages = []# desable language from here
 
 
 ############################# Plugins ##############################
@@ -200,67 +200,67 @@ url = "research/"
 
 
 
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
+################################### Spanish language #####################################
+[Languages.es]
+languageName = "Es"
+languageCode = "es-es"
+contentDir = "content/spanish"
+weight = 3
+home = "Casa"
 # copyright
-copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
+copyright = "Copyright &copy; 2021 spanish"
 
 
 
-################### French navigation ####################
+################### Spanish navigation ####################
 
 # main menu
-[[Languages.fr.menu.main]]
-name = "À propos"
+[[Languages.es.menu.main]]
+name = "Sobre Nosotros"
 url = "about/"
 weight = 1
 
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 name = "Cours"
 url = "course/"
 weight = 2
 
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 weight = 3
 name = "Pages"
 hasChildren = true
 
-  [[Languages.fr.menu.main]]
+  [[Languages.es.menu.main]]
   parent = "Pages"
   name = "teacher"
   url = "teacher/"
 
-  [[Languages.fr.menu.main]]
+  [[Languages.es.menu.main]]
   parent = "Pages"
   name = "notice"
   url = "notice/"
 
-  [[Languages.fr.menu.main]]
+  [[Languages.es.menu.main]]
   parent = "Pages"
   name = "Évènement"
   url = "event/"
 
-  [[Languages.fr.menu.main]]
+  [[Languages.es.menu.main]]
   parent = "Pages"
   name = "Cursus"
   url = "scholarship/"
 
-  [[Languages.fr.menu.main]]
+  [[Languages.es.menu.main]]
   parent = "Pages"
   name = "research"
   url = "research/"
   
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 name = "blog"
 url = "blog/"
 weight = 4
   
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 name = "Contact"
 url = "contact/"
 weight = 5
@@ -268,22 +268,22 @@ weight = 5
 
 # footer menu
 
-[[Languages.fr.menu.footer]]
+[[Languages.es.menu.footer]]
 name = "teacher"
 url = "teacher/"
 
-[[Languages.fr.menu.footer]]
+[[Languages.es.menu.footer]]
 name = "notice"
 url = "notice/"
 
-[[Languages.fr.menu.footer]]
+[[Languages.es.menu.footer]]
 name = "event"
 url = "event/"
 
-[[Languages.fr.menu.footer]]
+[[Languages.es.menu.footer]]
 name = "scholarship"
 url = "scholarship/"
 
-[[Languages.fr.menu.footer]]
+[[Languages.es.menu.footer]]
 name = "research"
 url = "research/"

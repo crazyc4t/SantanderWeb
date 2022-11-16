@@ -1,64 +1,54 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  bg_image : "images/banner/banner01.jpg"
   slider_item:
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Nunca es tarde para estudiar."
+      content : "La Unidad Educativa PCEI Santander te convierte en bachiller siendo 100% a distancia aprobado por el ministerio de educación."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler maintenant"
+        label : "¡Matricúlate aquí!"
         link : "contact/"
 
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Estudia con nosotros, sé un bachiller."
+      content : "Ofrecemos cursos desde educación básica superior, hasta bachillerato general extraordinario en ciencias sin importar edad."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
+        label : "Ver cursos"
         link : "contact/"
 
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "¡Gradúate en 5 meses!"
+      content : "Nuestras clases son 100% online, que ofrecen horarios flexibles, y facilidades de pago."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
+        label : "Saber más"
         link : "contact/"
 
 
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
+  image : "images/banner/banner02.png"
   feature_item:
     # feature item loop
-    - name : "Bourses académiques"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Notre bureau"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Nos accomplissements"
+    - name : "Decide ser más"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Un año escolar en 5 meses desde cualquier parte del mundo con horarios flexibles disponibles."
 
     # feature item loop
-    - name : "Admission"
+    - name : "Matriculación"
       icon : "ti-write" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
@@ -143,5 +133,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "DERNIÈRES NOUVELLES"
+  title : "Nuestros blogs"
   # blog item comes from "content/**/blog" folder.
