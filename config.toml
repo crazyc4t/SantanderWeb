@@ -209,17 +209,17 @@ hasChildren = true
 [[Languages.es.menu.main]]
 parent = "Sobre Nosotros"
 name = "Quiénes somos"
-url = "nosotros/"
+url = "about/"
 
 [[Languages.es.menu.main]]
 name = "Cursos"
-url = "cursos/"
+url = "course/"
 weight = 2
 
 [[Languages.es.menu.main]]
 parent = "Sobre Nosotros"
 name = "Profesores"
-url = "profesores/"
+url = "teacher/"
 
 [[Languages.es.menu.main]]
 parent = "Sobre Nosotros"
@@ -236,7 +236,7 @@ weight = 3
 
 [[Languages.es.menu.footer]]
 name = "Profesores"
-url = "profesores/"
+url = "teacher/"
 
 [[Languages.es.menu.footer]]
 name = "Noticias"

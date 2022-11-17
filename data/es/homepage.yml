@@ -23,7 +23,7 @@ slider:
       button:
         enable : true
         label : "Ver cursos"
-        link : "cursos/"
+        link : "course/"
 
     # slider item loop
     - title : "¡Gradúate en 5 meses!"
@@ -34,7 +34,7 @@ slider:
       button:
         enable : true
         label : "Saber más"
-        link : "nosotros/"
+        link : "about/"
 
 
 ############################### Banner feature ###############################
@@ -50,7 +50,7 @@ banner_feature:
     # feature item loop
     - name : "Matriculación"
       icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Matricularse nunca ha sido más fácil, con pocos requerimientos y un proceso bastante ágil."
 
 
 ############################## about ##################################
@@ -58,7 +58,7 @@ about:
   enable : true
   title : "Quiénes somos"
   image : "images/about/aboutus.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat"
+  content : "Somos una Unidad Educativa que ayuda a terminar tu educación de la mejor manera, teniendo X años de experiencia con nuestro personal docente altamente calificado..."
   button:
     enable : true
     label : "Saber más"
@@ -103,20 +103,20 @@ funfacts:
   enable : true
   funfact_item:
     # funfact item loop
-    - name : "Enseñanza"
-      count : "60"
+    - name : "Años de experiencia"
+      count : "4"
 
     # funfact item loop
     - name : "Cursos"
-      count : "50"
+      count : "6"
 
     # funfact item loop
     - name : "Estudiantes"
-      count : "1000"
+      count : "100"
 
     # funfact item loop
-    - name : "Clientes Satisfechos"
-      count : "1400"
+    - name : "Estudiantes graduados"
+      count : "60"
 
 # funfact is for about page
 
