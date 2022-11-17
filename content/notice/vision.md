@@ -1,11 +1,11 @@
 ---
 title: "Visión"
-date: 2022-11-16T15:27:17+06:00
+date: 2022-11-16T23:23:30-05:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/pagetitle.jpg"
 # meta description
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description: "Nuestra visión como Unidad Educativa Particular a Distancia PCEI Santander."
 # notice download link
 # type
 type: "notice"

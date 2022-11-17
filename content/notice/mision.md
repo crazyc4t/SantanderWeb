@@ -1,6 +1,6 @@
 ---
 title: "Misión"
-date: 2019-07-06T15:27:17+06:00
+date: 2022-11-16T23:23:30-05:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/pagetitle.jpg"
