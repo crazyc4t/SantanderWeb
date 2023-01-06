@@ -14,3 +14,5 @@ type: "notice"
 ## Nuestra Visión
 
 Consolidar a la Unidad Educativa Particular a Distancia - PCEI, SANTANDER, como un REFERENTE DE LA EDUCACIÓN A DISTANCIA generando espacios para el desarrollo, implementación e innovación educativa en esta modalidad, así como ofrecer alternativas viables en el proceso del autoeducación, que den respuesta a la creciente demanda de la sociedad actual.
+
+<img src="/images/backgrounds/success.png" alt="Decide ser más" style="display:block;margin-left: auto;margin-right: auto;width: 100%;">

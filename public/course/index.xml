@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nuestros cursos on Unidad Educativa Santander</title>
+    <link>https://santander.edu.ec/course/</link>
+    <description>Recent content in Nuestros cursos on Unidad Educativa Santander</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Copyright &amp;copy; 2022</copyright>
+    <lastBuildDate>Tue, 15 Nov 2022 15:27:17 +0600</lastBuildDate><atom:link href="https://santander.edu.ec/course/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bachillerato en Ciencias</title>
+      <link>https://santander.edu.ec/course/bachillerato/</link>
+      <pubDate>Tue, 15 Nov 2022 15:27:17 +0600</pubDate>
+      
+      <guid>https://santander.edu.ec/course/bachillerato/</guid>
+      <description>Detalles sobre el curso Esta es tu oportunidad de poder terminar tu educación, aquí está el calendario de días a completar:</description>
+    </item>
+    
+    <item>
+      <title>Básica superior</title>
+      <link>https://santander.edu.ec/course/basica-superior/</link>
+      <pubDate>Tue, 15 Nov 2022 15:27:17 +0600</pubDate>
+      
+      <guid>https://santander.edu.ec/course/basica-superior/</guid>
+      <description>Detalles sobre el curso Esta es tu oportunidad de poder terminar tu educación, aquí está el calendario de días a completar:</description>
+    </item>
+    
+  </channel>
+</rss>

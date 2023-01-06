@@ -11,13 +11,8 @@ description: "La Unidad Educativa Particular PCEI a distancia Santander es una i
 
 ## ¿Quíenes Somos?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur,
-adipisicing elit. Saepe ipsa illo quod veritatis, magni debitis fugiat dolore voluptates! Consequatur,
-aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis sint optio similique.
-Et amet magni facilis vero corporis quos.
+Somos la Unidad educativa PCEI a distancia "Santander", un colegio dirigido a las personas con escolaridad inconclusa mayores de 15 años.
 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum, dolor sit amet consectetur
-adipisicing elit. Ipsum a, facere fugit error accusamus est officiis vero in, nostrum laboriosam corrupti
-explicabo, cumque repudiandae deleniti perspiciatis quae consectetur enim. Laboriosam!
+Nuesta misión y objetivo a cumplir siempre será poder facilitar el cumplimiento escolar de nuestros estudiantes mediante las herramientas tecnológicas que están a nuestro alcance, ofreciendo educación de calidad, fortaleciendo los aspectos socio-culturales, éticos y tecnológicos para atender las particularidades de la educación a distancia en beneficio de nuestros estudiantes.
+
+<img src="/images/backgrounds/miau.jpg" alt="Graduados" style="display:block;margin-left: auto;margin-right: auto;width: 100%;">

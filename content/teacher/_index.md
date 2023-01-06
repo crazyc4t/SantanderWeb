@@ -4,5 +4,5 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/pagetitle.jpg"
 # meta description
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description: "Nuestros docentes altamente calificados para brindar una educación de calidad."
 ---

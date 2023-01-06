@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notice on Unidad Educativa Santander</title>
+    <link>https://santander.edu.ec/notice/</link>
+    <description>Recent content in Notice on Unidad Educativa Santander</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Copyright &amp;copy; 2022</copyright>
+    <lastBuildDate>Wed, 16 Nov 2022 23:23:30 -0500</lastBuildDate><atom:link href="https://santander.edu.ec/notice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Misión</title>
+      <link>https://santander.edu.ec/notice/mision/</link>
+      <pubDate>Wed, 16 Nov 2022 23:23:30 -0500</pubDate>
+      
+      <guid>https://santander.edu.ec/notice/mision/</guid>
+      <description>Nuestra misión Desarrollar e impulsar la innovación educativa en la MODALIDAD A DISTANCIA, aprovechando los beneficios de las tecnologías digitales para ofrecer programas educativos pertinentes y de calidad en el marco de las demandas y exigencias de los estándares educativos basado en el diseño curricular vigente.</description>
+    </item>
+    
+    <item>
+      <title>Valores</title>
+      <link>https://santander.edu.ec/notice/valores/</link>
+      <pubDate>Wed, 16 Nov 2022 23:23:30 -0500</pubDate>
+      
+      <guid>https://santander.edu.ec/notice/valores/</guid>
+      <description>Nuestros Valores Responsabilidad Respeto Solidaridad Puntualidad </description>
+    </item>
+    
+    <item>
+      <title>Visión</title>
+      <link>https://santander.edu.ec/notice/vision/</link>
+      <pubDate>Wed, 16 Nov 2022 23:23:30 -0500</pubDate>
+      
+      <guid>https://santander.edu.ec/notice/vision/</guid>
+      <description>Nuestra Visión Consolidar a la Unidad Educativa Particular a Distancia - PCEI, SANTANDER, como un REFERENTE DE LA EDUCACIÓN A DISTANCIA generando espacios para el desarrollo, implementación e innovación educativa en esta modalidad, así como ofrecer alternativas viables en el proceso del autoeducación, que den respuesta a la creciente demanda de la sociedad actual.</description>
+    </item>
+    
+  </channel>
+</rss>

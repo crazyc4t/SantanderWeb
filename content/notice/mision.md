@@ -15,3 +15,5 @@ type: "notice"
 Desarrollar e impulsar la innovación educativa en la MODALIDAD A DISTANCIA, aprovechando los beneficios de las tecnologías digitales para ofrecer programas educativos pertinentes y de calidad en el marco de las demandas y exigencias de los estándares educativos basado en el diseño curricular vigente.
 
 Fortalecer los aspectos socio-culturales, éticos y tecnológicos para atender las particularidades de la educación a distancia en beneficio de nuestro estudiantes.
+
+<img src="/images/backgrounds/success.png" alt="Decide ser más" style="display:block;margin-left: auto;margin-right: auto;width: 100%;">

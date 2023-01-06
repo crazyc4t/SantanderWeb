@@ -58,7 +58,7 @@ about:
   enable : true
   title : "Quiénes somos"
   image : "images/about/aboutus.jpg"
-  content : "Somos una Unidad Educativa que ayuda a terminar tu educación de la mejor manera, teniendo X años de experiencia con nuestro personal docente altamente calificado..."
+  content : "Somos una Unidad Educativa que ayuda a terminar tu educación de la mejor manera, teniendo más de 5 años de experiencia con nuestro personal docente altamente calificado que estarán listos para llevarlo al siguiente nivel que le pueda permitir conseguir ese trabajo deseado."
   button:
     enable : true
     label : "Saber más"
@@ -87,9 +87,9 @@ success_story:
   enable : true
   bg_image : "images/backgrounds/succes.png"
   title : "Historias de nuestros graduados"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  content : "Nuestros ex-alumnos gracias a la culminación de sus estudios han podido conseguir trabajo, incluso perseguir educación superior como universidades, institutos, etcétera."
   # video link
-  video_link : "https://odysee.com/@lenexists:a/len-show-the-epic-fail:5"
+  video_link : "."
 
 
 ############################# event ################################
@@ -104,7 +104,7 @@ funfacts:
   funfact_item:
     # funfact item loop
     - name : "Años de experiencia"
-      count : "4"
+      count : "5"
 
     # funfact item loop
     - name : "Cursos"

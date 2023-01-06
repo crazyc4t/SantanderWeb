@@ -15,7 +15,7 @@ teacher: "Jose Acosta"
 # duration
 duration: "5 meses"
 # weekly
-weekly: "02 horas"
+weekly: "25 horas"
 # apply url
 apply_url: "https://docs.google.com/forms/d/e/1FAIpQLSffGakICXWzD01-SmXgtpEiP5gBW10TzZrO0cISzrG5K3-q0g/viewform"
 # type
@@ -26,7 +26,7 @@ type: "course"
 
 Esta es tu oportunidad de poder terminar tu educación, aquí está el calendario de días a completar:
 
-<img src="/images/courses/calbach.png" alt="miau" width="1000" height="600"/>
+<img src="/images/courses/calbach.png" alt="Calendario Bachillerato" style="display:block;margin-left: auto;margin-right: auto;width: 100%;">
 
 ### Pre-requisitos
 
@@ -41,3 +41,5 @@ Esta es tu oportunidad de poder terminar tu educación, aquí está el calendari
 - Estudia desde cualquier lugar
 - Horario Flexible
 - Facilidades de pago
+
+<iframe width="300" height="400" src="https://www.youtube-nocookie.com/embed/ym3LiGMQfyQ" title="YouTube video player" style="display:block;margin-left: auto;margin-right: auto;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
