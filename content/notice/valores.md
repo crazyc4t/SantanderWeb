@@ -29,4 +29,4 @@ La ayuda, el apoyo, la fraternidad y la empatía hacia quien sufre un problema o
 
 Es una actitud humana considerada en muchas sociedades como la virtud de coordinarse cronológicamente para cumplir una tarea requerida o satisfacer una obligación antes o en un plazo anteriormente comprometido o hecho a otra persona.
 
- <img src="/images/about/success.png" alt="Valores institucionales" width="500" height="600">
+<img src="/images/about/success.png" alt="Valores institucionales" style="display:block;margin-left: auto;margin-right: auto;width: 100%;">
